@@ -17,6 +17,9 @@
                     </x-nav-link>
                 </div>
             </div>
+            <x-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps.index')">
+                {{ __('Chirps') }}
+            </x-nav-link>
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ms-6">
@@ -71,6 +74,9 @@
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
         </div>
+        <x-responsive-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps.index')">
+            {{ __('Chirps') }}
+        </x-responsive-nav-link>
 
         <!-- Responsive Settings Options -->
         <div class="pt-4 pb-1 border-t border-gray-200">
