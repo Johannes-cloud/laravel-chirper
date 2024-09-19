@@ -4,4 +4,5 @@
 - [ ] Visual redesign
 - [ ] Add profile pictures
 - [ ] Add likes and like counter on chirps
+- [ ] Add polls to app
 - [ ] Add mod functionality to admin users
