@@ -1,5 +1,5 @@
 ## TODO:
-
+- [ ] Make Chirps main page if user is logged in, if not redirect to login
 - [ ] Dark and light modes
 - [ ] Visual redesign
 - [ ] Add profile pictures
